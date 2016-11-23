@@ -58,6 +58,19 @@
 
 /* Containers */
 
+    .circular--portrait{
+         position:relative;
+         width:30%;
+         height:30%;
+         overflow:hidden;
+         border-radius:50%;
+     }
+
+     .circular--portrait img{
+         width:100%;
+         height:auto;
+     }
+
 	.container {
 		margin-left: auto;
 		margin-right: auto;
